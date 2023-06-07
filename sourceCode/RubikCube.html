@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rubik's Cube</title>
+  </head>
+
+  <body onload="main()">
+	
+	<p>W: Up side; S: Down side; A: Left side; D: Right side; Q: Front side; E: Back side; 0: Shuffle.</p>
+	<p>Shift + W/S/A/D/Q/E: counter-clockwise.</p>
+    <canvas id="webgl" width="1300" height="400" style="position: absolute; z-index: 0">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="RubikCube.js"></script>
+	
+  </body>
+</html>
